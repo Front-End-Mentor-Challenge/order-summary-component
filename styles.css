@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 1rem;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.main_container{
+    display: grid;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: hsl(225, 100%, 98%);
+    /* gap: 2rem; */
+    margin: 3em 1em;
+    max-width: 415px;
+}
+.content{
+    display: grid;
+    padding: 2em;
+    gap: 1.5rem;
+}
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:hsl(224deg 23% 55% / 8%);;
+    border-radius: 14px;
+    padding: 1em;
+    gap: 1em;
+    flex-wrap: wrap;
+    
+}
+.change a{
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: hsl(245deg 67.32% 48.86%);
+}
+.change a:hover{
+    color: hsl(245deg 67.32% 48.86% / 71%);
+    text-decoration: none;
+}
+.utility{
+    display: flex;
+    gap: 1em;
+}
+.proceed{
+    background-color: hsl(245deg 67.32% 48.86%);
+    color: hsl(225, 100%, 98%);
+    padding: 1em;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 700;
+    box-shadow: 0px 8px 20px 0px hsl(245deg 67.32% 48.86% / 42%);
+}
+.proceed:hover{
+    background-color:hsl(245deg 67.32% 48.86% / 71%);
+    cursor: pointer;
+}
+.cancel{
+    color: hsl(222, 17%, 51%);
+    font-weight: 700;
+    border: 0;
+    background:none;
+}
+.cancel:hover{
+color: hsl(223, 47%, 23%);
+cursor: pointer;
+}
+.detailes{
+
+}
+p{
+    color: hsl(224, 23%, 55%);
+}
+h1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.detailes h2{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    font-size: 0.99rem;
+}
